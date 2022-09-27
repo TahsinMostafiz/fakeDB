@@ -1,0 +1,17 @@
+
+.employees_div{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+@media only screen and (max-width : 576px) {
+    .employees_div{
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .employees_div{
+        grid-template-columns: repeat(2, auto);
+    }
+}
